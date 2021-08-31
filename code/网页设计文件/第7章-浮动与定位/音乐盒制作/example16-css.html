@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>制作常见的盒子模型</title>
+<style type="text/css">
+*{ padding:0; margin:0;}         /*将所有元素的默认内外边距归零*/
+.all{                                    
+	width:356px;
+	margin:20px auto;            /*使最外层的大盒子水平居中、距离浏览器上下边缘有一定的距离*/
+}
+.out{float:left;}               /*定义左右侧的大盒子左浮动*/
+.inner{                         /*控制左右侧内部包含图像的盒子*/
+	width:160px;
+	height:90px;
+	border:1px solid #CCC;
+	padding:4px;
+}      
+.text{                         /*控制左右侧段落的样式*/
+	font-size:14px;
+    color:#2c60ce;
+	height:30px;
+	line-height:30px;
+	background:url(img/play.png) no-repeat right;  /*定义段落的背景图像*/
+}  
+.font12{ font-size:12px;}                          /*控制段落中字号较小的文本*/
+.line{                                             /*控制段落中的横线*/
+	color:#CCC;
+	padding:0 5px;
+}   
+.left{ margin-right:16px;}                         /*定义左侧大盒子的右外边距*/             
+</style>
+
+</head>
+
+<body>
+<div class="all">
+    <div class="out left">
+        <div class="inner">
+            <img src="img/music1.jpg" alt="传智之歌" />
+        </div>
+        <p class="text">传智之歌<span class="line">-</span><span class="font12">学工部</span></p>
+    </div>
+    <div class="out">
+        <div class="inner">
+            <img src="img/music2.jpg" alt="无悔的青春" />
+        </div>
+        <p class="text">无悔的青春<span class="line">-</span><span class="font12">传智学员</span></p>
+    </div>
+</div>
+</body>
+</html>

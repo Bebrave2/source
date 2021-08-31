@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-3-孙宇堃-css特性</title>
+    <style>
+        h2,h3{
+            text-align:center;
+            color: green;
+        }
+        .red{
+            color:darkorange;
+            letter-spacing: 50px;
+        }
+        #xiu{
+            text-decoration: underline;
+            color:blue
+        }
+        *{
+            font-size: 50px;
+        }
+        /* p strong em{
+            color: 
+        }
+        p.red{
+            color: 
+        } */
+    </style>
+</head>
+<body>
+    css特性
+        1.层叠性
+        2.优先级：id > 类选择器 > 标记选择器(选择范围越窄优先级越高)
+        行内引入 > 嵌入式 > 外部链接引入（就近原则）
+        3.继承性：
+    <h2  class="red" id="xiu">演员</h2>
+    <h3 style="color: brown; text-align:right;">薛之谦</h3>
+    <p>简单点，说话的方式<strong>简单点</strong></p>
+    <p>递进的情绪请省略</p>
+    <strong>你又不是个演员</strong>
+    <p>别设计那些情节</p>
+
+</body>
+</html>

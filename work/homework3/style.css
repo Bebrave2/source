@@ -1,0 +1,113 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+.wrap{
+    width: 1500px;
+    height: 1700px; 
+    background-color:rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 0px;
+
+}
+.banner{
+    width: px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    
+}
+.nav{
+    width: px;
+    height: 30px;
+    background-color: orange;
+    margin: 0px;
+    padding: 0px;
+    line-height: 30px; 
+}
+.left{
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.right{
+    width: 880px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+}
+.left,.right{
+    height: 550px;
+    border: 1px solid black;
+    
+}
+.foot{
+    height: 50px;
+    background-color:#333;
+    clear: both;
+    color: rgb(255, 255, 255);
+}
+img{
+    width: 1500px;
+    height: 300px;
+}
+.nav{
+    height:30px;
+    background:#333;
+    line-height:30px;
+}
+.nav a{
+    width: 246px;
+    background-color:#333;
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.nav a:link{
+    color: black;
+}
+.nav a:visited{
+    color: red;
+}
+.nav a:hover{
+    color: yellow;
+}
+.nav a:active{
+    color: green;
+}
+.left img{
+    width: 450px;
+    height: 150px;
+    margin: 5px;
+}
+.right p{
+    text-indent: 2em;
+    /* 文本缩进：em相对单位 2倍当前字符大小 */
+    font-family: "隶书";
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    /* 字体加粗 */
+    font-style: italic;
+    /* 字体倾斜 */
+    text-decoration: underline;
+}
+.right ul{
+    list-style-position: inside;
+    list-style-image: url(img/icon.png);
+    /* 设置列表项图像 */
+    margin-left: 20px;
+}
+h2,h3{
+    background:grey ;
+    color: white;
+}
+.titile{
+    font-size: 50px;
+
+}
+h2.titile{
+    background-color: aqua;
+}
+

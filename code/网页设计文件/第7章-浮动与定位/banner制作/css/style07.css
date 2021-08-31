@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+/*全局控制*/
+body{font-family:"微软雅黑"; font-size:12px; color:#FFF;}
+/*重置浏览器的默认样式*/
+body,p,ul,li,h4,img{margin:0; padding:0; border:0; list-style:none;}
+.banner{
+	width:1000px;
+	height:285px;
+	margin:13px auto 15px auto;
+	overflow:hidden;                     /*防止溢出内容呈现在元素框之外*/
+}
+.left{
+	width:755px;
+	height:285px;
+	font-weight:bold;
+	background:url(../images/pic.gif);
+	position:relative;                 /*设置父元素相对定位*/
+	float:left;
+}
+.content_left{
+	position:absolute;                 /*设置子元素绝对定位 */
+	top:90px;
+	right:45px;
+	text-align:right;                  /*设置文本内容右对齐*/
+}
+.school_en{
+	font-size:14px;                    /*设置英文字号*/
+}
+.school_ch{
+	font-size:24px;
+	font-family:"黑体";                /*设置传智播客字体样式*/   
+	background:url(../images/icon5.gif) no-repeat right center;
+	padding-right:10px;
+}
+.advertise{
+	margin-top:20px;
+	font-family:"黑体";                /*设置文本内容字体样式*/
+	font-size:16px;
+}
+ul.style_a{
+	margin-top:25px;
+	margin-left:120px;
+	list-style:none;
+	overflow:hidden;                   /*防止溢出内容呈现在元素框之外*/
+}
+ul.style_a li{
+	float:left;                         /*设置浮动属性*/
+	margin-left:10px;
+}
+ul.style_a li a{                        /*设置banner广告图切换图标样式*/
+	background:#FFF;
+	border:1px solid #ff7202;
+	width:26px;
+	height:22px;
+	text-align:center;
+	line-height:22px;
+	vertical-align:middle;
+	display:block;                      /* 把行内元素转为块元素*/
+	color:#ff7202;
+	font-size:18px;
+	text-decoration:none;
+}
+ul.style_a li.current a{              /*设置第一个切换图标样式*/
+	width:30px;
+	height:26px;
+	line-height:26px;
+	background:#ff7202;
+	color:#FFF;
+	margin-top:-2px;
+	position:relative;
+}
+.right{
+	width:245px;
+	height:285px;
+	background:#1f1e1e;
+	float:right;
+	position:relative;              /*设置父元素相对定位*/
+}
+.content_right{
+	position:absolute;              /*设置子元素绝对定位*/
+	top:50px;
+	left:30px;
+}
+ul.style_icon{
+	margin-top:10px;
+}
+ul.style_icon li{
+	float:left;                     /*设置浮动属性*/
+	margin-right:12px;
+}
+.cl{                                  /*设置清除浮动属性*/
+	clear:both;
+	margin-top:55px;
+	margin-right:30px;
+	text-indent:2em;
+	line-height:24px;
+}

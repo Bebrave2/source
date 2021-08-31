@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-13-孙宇堃-表单</title>
+</head>
+<body>
+    <p>form表单提交方式：默认get--参数放在url中提交（不安全）
+                     推荐使用post--参数放在html头（安全）
+    单选按钮、复选按钮，提交后的值value属性的值 4</p>
+    <form action="green.html" method="POST">
+    购物攻略：
+    <textarea name="method"  id="" cols=10 rows="1">添加内容</textarea>
+    <hr>
+    睡觉时间：
+    <select name="time" id="">
+      <option value="20">20点</option>
+      <option value="21">21点</option>
+      <option value="22">22点</option>
+      <option value="23">23点</option>
+      <option value="2" selected>24点</option>
+      <option value="1">1点</option>
+      <option value="2">2点</option>
+    </select>
+    <hr>
+    上传头像：<input type="file" name="head"><hr>
+    <input type="hidden" name="secret" value="8888">
+    姓名：<input type="text" name="user" value=""><br>
+    支付密码：<input type="password" name="pwd" size="100"><br>
+    购物意愿：<input type="radio" name="wish" checked="checked">必须买
+             <input type="radio" name="wish">买不买都行
+             <input type="radio" name="wish">一定不买<br>
+    预计支出：
+    <input type="radio" name="money" >小于500
+    <input type="radio" name="money" >大于500<br>
+    购物类别：
+    <input type="checkbox" name="type" value="1" checked>软件服务
+    <input type="checkbox" name="type" value="2">衣服
+    <input type="checkbox" name="type" value="3">食品
+    <input type="checkbox" name="type" value="4">生活用品
+    <input type="checkbox" name="type" value="5">鞋品<br>
+
+    <input type="submit" value="提交到服务器">
+    <input type="reset" value="重置">
+    <input type="button" value="就是一个普通的啥也也不干的按钮">
+    </form>
+</body>
+</html>

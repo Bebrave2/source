@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-13-孙宇堃-表单</title>
+</head>
+<body>
+    <!-- form表单提交方式：默认get--参数放在url中提交（不安全）
+                     推荐使用post--参数放在html头（安全）
+    单选按钮、复选按钮，提交后的值value属性的值 -->
+    <!-- <form action="green.html" method="POST">
+    购物攻略：
+    <textarea name="method"  id="" cols=10 rows="1">添加内容</textarea>
+    <hr>-->
+    <form action="index.html" method="POST">
+    超度时间：
+    <select name="time" id="">
+        <option value="20">20点</option>
+        <option value="21">21点</option>
+        <option value="22">22点</option>
+        <option value="23">23点</option>
+        <option value="2" selected>24点</option>
+        <option value="1">1点</option>
+        <option value="2">2点</option>
+    </select>
+    <br>
+    <!-- <hr>
+    上传头像：<input type="file" name="head"><hr>
+    <input type="hidden" name="secret" value="8888"> -->
+    账户名称:  <input type="text" name="user" size="50" value=""><br>
+    密码：    &nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="pwd" size="50"><br>
+    超度方式：<input type="radio" name="wish" checked="checked">原地升天
+             <input type="radio" name="wish">物理超度
+             <input type="radio" name="wish">化学超度<br>
+    <!-- 预计支出：
+              <input type="radio" name="money" >小于500
+              <input type="radio" name="money" >大于500<br> -->
+    超度附加套餐：
+              <input type="checkbox" name="type" value="1" checked>电极疗法
+              <input type="checkbox" name="type" value="2">闪电五连鞭
+              <input type="checkbox" name="type" value="3">黑人抬棺
+             <br>
+            
+              <input type="submit" value="提交">
+              <input type="reset" value="重置">
+            
+    </form>
+    <a href="index.html">返回主页</a>
+</body>
+</html>

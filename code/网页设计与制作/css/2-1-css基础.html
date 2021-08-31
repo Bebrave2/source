@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-1-孙宇堃-css基础</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <style>
+        h2{
+            color: blueviolet;
+            font-size: 40px;
+        }
+        p{
+            color: gold;
+            font-size: 20px;
+        }
+        p[title=abc]{
+            color: blue;
+        }
+        p[title^=c]{
+            color: slateblue;
+        }
+        h2{
+            color: green;
+            font-family:"隶书";
+            font-size: 50px;
+        }
+        h4{
+            color:chocolate;
+            font-family: serif;
+        }
+    </style>
+</head>
+<body>
+    优先级：行内式 > 页面嵌入式 > 外部链接式（就近原则）
+        <h2>再别康桥1</h2>
+        <h4>作者：徐志摩</h4> 
+        <p title="cbc">轻轻的我走了</p>
+        <p title="bcd">正如我轻轻的来</p> 
+        <p>我轻轻的招手</p> 
+        <p>作别西天的云彩</p> 
+        
+        <h2>再别康桥2</h2>
+        <p>悄悄是别离的笙箫；</p>
+        <p>沉默是今晚的康桥！</p>
+</body>
+</html>

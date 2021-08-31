@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>溢出</title>
+	<style>
+		
+		.box {
+			width: 600px;
+			height: 150px;
+
+			background-color: blue;
+
+			/*overflow: hidden;*/
+
+			/*始终显示滚动条，无论是否真有溢出*/
+			/*overflow: scroll;*/
+
+			/*当真有溢出时，会出现滚动条*/
+			/*overflow: auto;*/
+			
+			/* 可见的 默认值 */
+			overflow: visible;
+		}
+
+		p {
+			width: 800px;
+			height: 100px;
+			margin: 0;
+
+			background-color: red;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="box">
+		<p>锄禾日当午，汗滴禾下土，谁知盘中餐，粒粒皆辛苦</p>
+	</div>
+</body>
+</html>
